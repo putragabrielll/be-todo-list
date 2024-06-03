@@ -1,0 +1,26 @@
+{
+  "name": "be-todo-list",
+  "version": "1.0.0",
+  "description": "Aplikasi BE To-Do List",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BE",
+    "todolist"
+  ],
+  "author": "gabriel putra sihombing",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.40.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.2",
+    "pg": "^8.11.5"
+  }
+}
